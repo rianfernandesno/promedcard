@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </link>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>PROMEDCARD</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+           <img src="src/imagens/Logo.png">
+            
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">SERVIÇOS</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a href="#testimonials">DEPOIMENTOS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#profissionais">PROFISSIONAIS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" id="unidades-enderecos">UNIDADES/ENDEREÇOS</a>
+                </li>
+
+            </ul>
+
+            <a href="https://wa.me/557734226143" target="_blank" class="btn_default">FALE CONOSCO</a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i> 
+            </button>
+        
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">SERVIÇOS</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a href="#testimonials">DEPOIMENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" id="unidades-enderecos">UNIDADES/ENDEREÇOS</a>
+                </li>
+            
+            </ul>
+            <button class="btn_default">CLIQUE AQUI</button>
+
+
+        </div>
+    </header>
+    
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Há 14 anos cuidado da sua
+                    <span>saúde</span>
+                </h1>
+
+                    <p class="description">
+                        A Promedcard é uma clínica localizada na Av. Otávio Santos, 58, especializada em oferecer atendimento humanizado e moderno, com profissionais qualificados e serviços de alta qualidade. Agende suas consultas de forma prática e conte conosco para cuidar da sua saúde.
+
+                    </p>
+                    
+                    <div id="cta_buttons">
+
+                        <a href="#menu" class="btn_default">Ver serviços</a>
+                         
+                        <a href="https://wa.me/557734226143" id="phone_button" target="_blank">
+                            <button class="btn_default">
+                                <i class="fa-solid fa-phone"></i>
+                            </button>
+                            (77) 3422-6143
+                        </a>
+
+                    </div>
+                    
+                    <div class="social_media_buttons">
+                        <a href="https://wa.me/557734226143" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/promedcard/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/clinicapromedcard/" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                
+            </div>
+
+
+            <div id="banner">
+                <img src="src/imagens/promedcard-local.png"   alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Nossas  referências</h3>
+            <div id="services">
+                <div class="service">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/pediatria.jpg" class="dish-image">
+
+                    <h3 class="service-title">PEDIATRA</h3>
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ex eligendi. 
+                    </span>
+
+                    <div class="service_rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="service_price">
+                        <h4>R$100,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid  fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="service">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/psiquiatra.jpg" class="dish-image">
+
+                    <h3 class="service-title">PSIQUIATRA</h3>
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ex eligendi. 
+                    </span>
+
+                    <div class="service_rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="service_price">
+                        <h4>R$100,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid  fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/oftamolgoista.jpg" class="dish-image">
+
+                    <h3 class="service-title">OFTAMOLOGISTA</h3>
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ex eligendi. 
+                    </span>
+
+                    <div class="service_rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="service_price">
+                        <h4>R$100,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid  fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/cardiologista.jpg" class="dish-image">
+
+                    <h3 class="service-title">CARDIOLOGISTA</h3>
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ex eligendi. 
+                    </span>
+
+                    <div class="service_rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="service_price">
+                        <h4>R$100,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid  fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </section>
+
+        <section id="testimonials">
+            <img src="src/imagens/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/imagens/pessoa1.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/imagens/pessoa2.avif" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn_default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+
+        <section id="professionals">
+            <h2 class="section-title">Nossos Profissionais</h2>
+            <h3 class="section-subtitle">Conheça nossa equipe</h3>
+            <div id="professionals_list">
+                <div class="professional">
+                    <img src="src/imagens/medico1.jpg" alt="Profissional 1" class="professional-photo">
+                    <h3>Dr. Fulano de Tal</h3>
+                    <p>Especialidade: Cardiologia</p>
+                    <button class="btn_default" onclick="openPopup('popup1')">Saber mais</button>
+                </div>
+        
+                <div class="professional">
+                    <img src="src/imagens/medico2.jpg" alt="Profissional 2" class="professional-photo">
+                    <h3>Dra. Beltrana de Tal</h3>
+                    <p>Especialidade: Pediatria</p>
+                    <button class="btn_default" onclick="openPopup('popup2')">Saber mais</button>
+                </div>
+        
+                <div class="professional">
+                    <img src="src/imagens/medico3.jpg" alt="Profissional 3" class="professional-photo">
+                    <h3>Dr. Ciclano de Tal</h3>
+                    <p>Especialidade: Psiquiatria</p>
+                    <button class="btn_default" onclick="openPopup('popup3')">Saber mais</button>
+                </div>
+        
+                <!-- Adicione mais profissionais aqui -->
+            </div>
+        
+            <!-- Popups -->
+            <div id="popup1" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+                    <h2>Dr. Fulano de Tal</h2>
+                    <p>Graduação: Medicina pela Universidade X</p>
+                    <p>Experiência: 10 anos em cardiologia.</p>
+                    <!-- Adicione mais informações aqui -->
+                </div>
+            </div>
+        
+            <div id="popup2" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closePopup('popup2')">&times;</span>
+                    <h2>Dra. Beltrana de Tal</h2>
+                    <p>Graduação: Medicina pela Universidade Y</p>
+                    <p>Experiência: 8 anos em pediatria.</p>
+                    <!-- Adicione mais informações aqui -->
+                </div>
+            </div>
+        
+            <div id="popup3" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closePopup('popup3')">&times;</span>
+                    <h2>Dr. Ciclano de Tal</h2>
+                    <p>Graduação: Medicina pela Universidade Z</p>
+                    <p>Experiência: 6 anos em psiquiatria.</p>
+                    <!-- Adicione mais informações aqui -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Unidades e Endereços</h2>
+            <p>Encontre a unidade mais próxima de você!</p>
+            <p><strong>Endereço:</strong> Rua  Av. Otávio Santos, 58 - Bairro - Recreio, Vitória da Conquista - BA, 45020-750</p>
+            <p><strong>Telefone:</strong> (77) 3422-6143</p>
+            <!-- Adicione mais informações aqui -->
+        </div>
+    </div>
+    
+
+    <footer>
+        <img src="src/imagens/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 PROMEDCARD 
+                
+            </span>
+            <div class="social_media_buttons">
+                <a href="https://wa.me/557734226143">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/promedcard/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/clinicapromedcard/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
